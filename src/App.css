@@ -1,22 +1,24 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
-  height: 40vmin;
+    height: 50px;
+    width: 44.65px;
+    float: left;
+    margin-top: 86px;
+    margin-left: 46px;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #09d3ac;
+.qollabi-dev-tribu {
+    height: 50px;
+    width: 194px;
+    color: #2F345B;
+    font-family: "Ubuntu Medium";
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
 }
