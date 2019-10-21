@@ -1,12 +1,8 @@
-
-.App-logo {
-    height: 50px;
-    width: 44.65px;
-    float: left;
-    margin-top: 86px;
-    margin-left: 46px;
+body {
+    background-color: #F7FBFC;
+    font-family: "Ubuntu Medium";
+    color: #AFACAC;
 }
-
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -17,8 +13,82 @@
     height: 50px;
     width: 194px;
     color: #2F345B;
-    font-family: "Ubuntu Medium";
     font-size: 24px;
     line-height: 50px;
     text-align: center;
+    margin-top: 47px;
+}
+.link {
+    height: 102px;
+    width: 940px;
+    margin-bottom: 30px;
+    align-items: center;
+    margin-left: 47px;
+}
+.rectangle {
+    height: 90px;
+    width: 940px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+.cqrs-is-easy-with-sy {
+    height: 20px;
+    width: 499px;
+    color: #2F345B;
+    font-size: 18px;
+    line-height: 21px;
+}
+.added-on {
+    height: 12px;
+    width: 143px;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.tag-text {
+    height: 13px;
+    width: 49px;
+    font-size: 12px;
+    line-height: 13px;
+}
+.tag-box {
+    text-align: center;
+    box-sizing: border-box;
+    height: 23px;
+    width: 70px;
+    border: 1px solid #AFACAC;
+    border-radius: 4px;
+}
+.source-logo {
+    height: 33px;
+    width: 33px;
+    border-radius: 4px;
+}
+.container {
+    display: flex;
+}
+
+.list-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 200px;
+}
+.btn {
+    display: inline-block;
+    height: 42px;
+    width: 165px;
+    border-radius: 4px;
+    background-color: #2F345B;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    align-self: baseline;
 }

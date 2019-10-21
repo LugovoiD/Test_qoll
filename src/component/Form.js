@@ -18,7 +18,7 @@ const ARTICLE_QUERY = gql`
     }
 `;
 
-export class ArticleList extends Component {
+export class SubmitForm extends Component {
     render() {
         return(
             <>
@@ -44,5 +44,5 @@ export class ArticleList extends Component {
     }
 }
 
-export default ArticleList;
+export default SubmitForm;
 
